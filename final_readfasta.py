@@ -43,6 +43,9 @@ def main():
                 seq += line.strip()
 
         # end of for loop
+        print('\n')
+        print('Original Sequence:')
+        print(seq)
         mutated_sequence = mutate(seq)
         print('\n')
         print('Mutated Sequence:')
